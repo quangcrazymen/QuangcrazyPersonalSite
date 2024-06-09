@@ -1,10 +1,5 @@
 "use strict";
 
-console.log("container here");
-const container = document.getElementsByClassName("container")[0];
-console.log(container);
-spawnAnimation(container, "mouseover", slideOutEllipticRightFwd);
-
 function ConstructRecentItems() {
 	var doc = document.getElementById("recent");
 
@@ -31,6 +26,3 @@ function ConstructRecentItems() {
 }
 
 ConstructRecentItems();
-
-const recentContainer = document.getElementsByClassName("recent-container")[0];
-spawnAnimation(recentContainer, "mouseover", slideOutEllipticRightBck);
