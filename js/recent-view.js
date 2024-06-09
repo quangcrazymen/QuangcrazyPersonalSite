@@ -2,36 +2,8 @@
 
 console.log("container here");
 const container = document.getElementsByClassName("container")[0];
-
-container.addEventListener("mouseover", () => {
-	container.animate(
-		[
-			{
-				offset: 0,
-				transform: "translateX(0) rotateY(0) scale(1)",
-				transformOrigin: "600px 50%",
-				opacity: 1,
-			},
-			{
-				offset: 1,
-				transform: "translateX(1000px) rotateY(20deg) scale(6)",
-				transformOrigin: "-100% 50%",
-				opacity: 0,
-			},
-		],
-		{
-			duration: 1000,
-			easing: "linear",
-			delay: 0,
-			iterations: 1,
-			direction: "normal",
-			fill: "none",
-		}
-	);
-	setTimeout(() => {
-		container.style.visibility = "hidden";
-	}, 1000);
-});
+console.log(container);
+spawnAnimation(container, "mouseover", slideOutEllipticRightFwd);
 
 function ConstructRecentItems() {
 	var doc = document.getElementById("recent");
@@ -59,3 +31,6 @@ function ConstructRecentItems() {
 }
 
 ConstructRecentItems();
+
+const recentContainer = document.getElementsByClassName("recent-container")[0];
+spawnAnimation(recentContainer, "mouseover", slideOutEllipticRightBck);
