@@ -274,6 +274,7 @@ function GetRecentItems(count) {
 // Authors
 //-----------------------------------------------------------------------------
 
+CreateAuthor("Quangcrazy", "https://github.com/quangcrazymen");
 CreateAuthor("Matthias Moulin", "https://matt77hias.github.io");
 CreateAuthor("Niels Billen", "https://nielsbillen.github.io");
 CreateAuthor(
@@ -910,11 +911,22 @@ CreateAuthor("Ruben Pieters", "https://rubenpieters.github.io");
 //-----------------------------------------------------------------------------
 
 CreateProject(
-	"Break-out game using openGL",
+	"3D Breakout game using ThreeJS",
+	["Quangcrazy"],
+	"Course: Computer graphics",
+	"res/Projects/3DBreakoutThreeJS/Thumbnail.png",
+	5,
+	2022,
+	"https://github.com/quangcrazymen/Breakout-Using-Threejs",
+	[]
+);
+
+CreateProject(
+	"Breakout game using openGL",
 	["Quangcrazy"],
 	"Course: Basic OpenGL",
 	"res/Projects/BreakoutWithOpenGL/Thumbnail.png",
-	6,
+	4,
 	2024,
 	"https://github.com/quangcrazymen/Breakout-Game-OpenGL",
 	[]
@@ -928,6 +940,17 @@ CreateProject(
 	12,
 	2013,
 	"res/Projects/LilyhammerRenderingEngine/Project.html",
+	[]
+);
+
+CreateProject(
+	"2D Platformer game",
+	["Quangcrazy"],
+	"Mod of 2D Platform game template (Unity project)",
+	"res/Projects/2DPlatformerGame/Thumbnail.png",
+	6,
+	2024,
+	"https://github.com/quangcrazymen/2DPlatformGame",
 	[]
 );
 
