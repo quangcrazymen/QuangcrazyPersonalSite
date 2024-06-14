@@ -955,6 +955,17 @@ CreateProject(
 );
 
 CreateProject(
+	"Plant vs Zombie clone",
+	["Quangcrazy"],
+	"Plant vs zombie clone using Godot game engine",
+	"res/Projects/PlantVSZombieUsingGodot/Thumbnail.png",
+	10,
+	2023,
+	"https://github.com/quangcrazymen/Plant-vs-Zombie-clone-godot-",
+	[]
+);
+
+CreateProject(
 	"JUnit Test Deamon",
 	[
 		"Matthias Moulin",
