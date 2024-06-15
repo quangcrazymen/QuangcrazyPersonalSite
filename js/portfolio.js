@@ -924,22 +924,11 @@ CreateProject(
 CreateProject(
 	"Breakout game using openGL",
 	["Quangcrazy"],
-	"Course: Basic OpenGL",
+	"Classic break-out game with some modern twist made with OPENGL",
 	"res/Projects/BreakoutWithOpenGL/Thumbnail.png",
 	4,
 	2024,
 	"https://github.com/quangcrazymen/Breakout-Game-OpenGL",
-	[]
-);
-
-CreateProject(
-	"Lilyhammer Rendering Engine",
-	["Matthias Moulin"],
-	"Course: Computer Graphics I <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/G0Q66BE.htm'>(B-KUL-G0Q66B)</a>, December 2013",
-	"res/Projects/LilyhammerRenderingEngine/Thumbnail.png",
-	12,
-	2013,
-	"res/Projects/LilyhammerRenderingEngine/Project.html",
 	[]
 );
 
@@ -965,113 +954,124 @@ CreateProject(
 	[]
 );
 
-CreateProject(
-	"JUnit Test Deamon",
-	[
-		"Matthias Moulin",
-		"Mattias Buelens",
-		"Ruben Pieters",
-		"Vital D'haveloose",
-	],
-	"Course: Design of Software Systems <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H04J9BE.htm'>(B-KUL-H04J9B)</a>, December 2013",
-	"res/Projects/JUnitTestDeamon/Thumbnail.png",
-	12,
-	2013,
-	"https://github.com/matt77hias/junit",
-	[]
-);
+// CreateProject(
+// 	"Lilyhammer Rendering Engine",
+// 	["Matthias Moulin"],
+// 	"Course: Computer Graphics I <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/G0Q66BE.htm'>(B-KUL-G0Q66B)</a>, December 2013",
+// 	"res/Projects/LilyhammerRenderingEngine/Thumbnail.png",
+// 	12,
+// 	2013,
+// 	"res/Projects/LilyhammerRenderingEngine/Project.html",
+// 	[]
+// );
 
-CreateProject(
-	"Car Rental Agency",
-	["Matthias Moulin", "Ruben Pieters"],
-	"Course: Distributed Systems <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H04I4AE.htm'>(B-KUL-H04I4A)</a>, December 2013",
-	"res/No Image.jpg",
-	12,
-	2013,
-	"https://github.com/matt77hias/CarRental-Meta",
-	[
-		new Download(
-			"Java RMI 1",
-			"https://github.com/matt77hias/JavaRMI1",
-			"res/Icons/icon-html.png"
-		),
-		new Download(
-			"Java RMI 2",
-			"https://github.com/matt77hias/JavaRMI2",
-			"res/Icons/icon-html.png"
-		),
-		new Download(
-			"Java EE",
-			"https://github.com/matt77hias/JavaEE",
-			"res/Icons/icon-html.png"
-		),
-		new Download(
-			"Java GAE",
-			"https://github.com/matt77hias/JavaGAE",
-			"res/Icons/icon-html.png"
-		),
-	]
-);
+// CreateProject(
+// 	"JUnit Test Deamon",
+// 	[
+// 		"Matthias Moulin",
+// 		"Mattias Buelens",
+// 		"Ruben Pieters",
+// 		"Vital D'haveloose",
+// 	],
+// 	"Course: Design of Software Systems <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H04J9BE.htm'>(B-KUL-H04J9B)</a>, December 2013",
+// 	"res/Projects/JUnitTestDeamon/Thumbnail.png",
+// 	12,
+// 	2013,
+// 	"https://github.com/matt77hias/junit",
+// 	[]
+// );
 
-//-----------------------------------------------------------------------------
-// Projects: Holiday
-//-----------------------------------------------------------------------------
+// CreateProject(
+// 	"Car Rental Agency",
+// 	["Matthias Moulin", "Ruben Pieters"],
+// 	"Course: Distributed Systems <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H04I4AE.htm'>(B-KUL-H04I4A)</a>, December 2013",
+// 	"res/No Image.jpg",
+// 	12,
+// 	2013,
+// 	"https://github.com/matt77hias/CarRental-Meta",
+// 	[
+// 		new Download(
+// 			"Java RMI 1",
+// 			"https://github.com/matt77hias/JavaRMI1",
+// 			"res/Icons/icon-html.png"
+// 		),
+// 		new Download(
+// 			"Java RMI 2",
+// 			"https://github.com/matt77hias/JavaRMI2",
+// 			"res/Icons/icon-html.png"
+// 		),
+// 		new Download(
+// 			"Java EE",
+// 			"https://github.com/matt77hias/JavaEE",
+// 			"res/Icons/icon-html.png"
+// 		),
+// 		new Download(
+// 			"Java GAE",
+// 			"https://github.com/matt77hias/JavaGAE",
+// 			"res/Icons/icon-html.png"
+// 		),
+// 	]
+// );
 
-CreateProject(
-	"Snake",
-	["Matthias Moulin"],
-	"August 2013",
-	"res/Projects/Snake/Thumbnail.png",
-	8,
-	2013,
-	"https://github.com/matt77hias/Snake",
-	[]
-);
+// //-----------------------------------------------------------------------------
+// // Projects: Holiday
+// //-----------------------------------------------------------------------------
 
-//-----------------------------------------------------------------------------
-// Projects: Bachelor of Science in Engineering - y3
-//-----------------------------------------------------------------------------
+// CreateProject(
+// 	"Snake",
+// 	["Matthias Moulin"],
+// 	"August 2013",
+// 	"res/Projects/Snake/Thumbnail.png",
+// 	8,
+// 	2013,
+// 	"https://github.com/matt77hias/Snake",
+// 	[]
+// );
 
-CreateProject(
-	"MazeStormer",
-	[
-		"Dennis Frett",
-		"Matthias Moulin",
-		"Mattias Buelens",
-		"Stijn Hoskens",
-		"Vital D'haveloose",
-		"Stijn Hoskens",
-	],
-	"Course: Problem Solving and Design: Computer Science <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H01Q3CE.htm'>(B-KUL-H01Q3C)</a>, June 2013",
-	"res/Projects/MazeStormer/Thumbnail.png",
-	6,
-	2013,
-	"https://github.com/matt77hias/MazeStormer",
-	[
-		new Download(
-			"Demo 1",
-			"https://www.youtube.com/watch?v=PkklxX5FeSE",
-			"res/Icons/icon-html.png"
-		),
-		new Download(
-			"Demo 2",
-			"https://www.youtube.com/watch?v=WiFAeo-Ifsk",
-			"res/Icons/icon-html.png"
-		),
-	]
-);
+// //-----------------------------------------------------------------------------
+// // Projects: Bachelor of Science in Engineering - y3
+// //-----------------------------------------------------------------------------
 
-//-----------------------------------------------------------------------------
-// Projects: Bachelor of Science in Engineering - y2.s2
-//-----------------------------------------------------------------------------
+// CreateProject(
+// 	"MazeStormer",
+// 	[
+// 		"Dennis Frett",
+// 		"Matthias Moulin",
+// 		"Mattias Buelens",
+// 		"Stijn Hoskens",
+// 		"Vital D'haveloose",
+// 		"Stijn Hoskens",
+// 	],
+// 	"Course: Problem Solving and Design: Computer Science <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H01Q3CE.htm'>(B-KUL-H01Q3C)</a>, June 2013",
+// 	"res/Projects/MazeStormer/Thumbnail.png",
+// 	6,
+// 	2013,
+// 	"https://github.com/matt77hias/MazeStormer",
+// 	[
+// 		new Download(
+// 			"Demo 1",
+// 			"https://www.youtube.com/watch?v=PkklxX5FeSE",
+// 			"res/Icons/icon-html.png"
+// 		),
+// 		new Download(
+// 			"Demo 2",
+// 			"https://www.youtube.com/watch?v=WiFAeo-Ifsk",
+// 			"res/Icons/icon-html.png"
+// 		),
+// 	]
+// );
 
-CreateProject(
-	"RoboRally",
-	["Matthias Moulin", "Ruben Pieters"],
-	"Course: Object Oriented Programming <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H01P1AE.htm'>(B-KUL-H01P1A)</a>, June 2012",
-	"res/Projects/RoboRally/Thumbnail.png",
-	6,
-	2012,
-	"https://github.com/matt77hias/RoboRally",
-	[]
-);
+// //-----------------------------------------------------------------------------
+// // Projects: Bachelor of Science in Engineering - y2.s2
+// //-----------------------------------------------------------------------------
+
+// CreateProject(
+// 	"RoboRally",
+// 	["Matthias Moulin", "Ruben Pieters"],
+// 	"Course: Object Oriented Programming <a href='https://onderwijsaanbod.kuleuven.be/syllabi/v/e/H01P1AE.htm'>(B-KUL-H01P1A)</a>, June 2012",
+// 	"res/Projects/RoboRally/Thumbnail.png",
+// 	6,
+// 	2012,
+// 	"https://github.com/matt77hias/RoboRally",
+// 	[]
+// );
